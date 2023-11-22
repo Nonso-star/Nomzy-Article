@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+logo{
+    order: 1;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+
+}
+header {
+    background-color: #00203a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Nunito;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+nav ul {
+    display: flex;
+    order: 2;
+    
+}
+
+nav ul a{
+    color: white;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.aboutus{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.About-left h1{
+    font-size: 48px;
+    font-family: Nunito;
+    font-weight: 900;
+}
+
+.About-left h2{
+    font-size: 25px;
+    font-family: Nunito;
+}
+
+.about-text {
+    color: rgb(41, 41, 41);
+    justify-content: center;
+    font-family: nunito;
+    font-size: 16px;
+    
+}
+
+.Footer{
+    background-color: #00203a;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Footer p{
+    color: white;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Footer a{
+    color: white;
+}

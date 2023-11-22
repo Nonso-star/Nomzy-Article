@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+logo{
+    order: 1;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+
+}
+header {
+    background-color: #00203a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Nunito;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+nav ul {
+    display: flex;
+    order: 2;
+    
+}
+
+nav ul a{
+    color: white;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.contact-form{
+    
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 8px;
+    background-color: rgb(214, 227, 255);
+    
+}
+
+
+.contact-form h2{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 8px;
+    font-family: Nunito;
+    font-weight: 700;
+    color: rgb(31, 31, 31);
+
+}
+
+label span {
+    margin-bottom: 5px;
+}
+
+
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button */
+button{
+    background-color: #00203a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Footer{
+    background-color: #00203a;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Footer p{
+    color: white;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Footer a{
+    color: white;
+}
